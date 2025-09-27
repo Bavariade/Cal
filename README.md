@@ -1,7 +1,7 @@
 import datetim
 from typing import List, Optional
 
-clas Item:
+class Item:
     def __init__(self, id: int, name: str, description: str):
         self.id = id
         self.name = name
